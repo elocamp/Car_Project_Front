@@ -1,0 +1,122 @@
+.title {
+    margin-left: 38%;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+[nz-form] {
+    max-width: 700px; /* Aumentei a largura máxima */
+    margin: 0 auto;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.child {
+    padding: 30px; /* Aumentei o padding */
+    width: 100%;
+    max-width: 700px; /* Aumentei a largura máxima */
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    max-height: 85vh; /* Aumentei a altura máxima */
+    overflow-y: auto;
+}
+
+.imgDiv {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.file-upload-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.file-upload-label {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    font-size: 16px;
+}
+
+.file-upload-label span {
+    font-size: 16px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.image-preview {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.circle-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.preview-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+nz-form-control {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+nz-form-control input[nz-input],
+nz-form-control textarea[nz-input] {
+    border-radius: 8px;
+    border: 1px solid #d9d9d9;
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+nz-form-control input[nz-input]:focus,
+nz-form-control textarea[nz-input]:focus {
+    border-color: #40a9ff;
+    box-shadow: 0 0 0 2px rgba(64, 169, 255, 0.2);
+    outline: none;
+}
+
+button {
+    background-color: #333;
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+button:active {
+    background-color: #222;
+}

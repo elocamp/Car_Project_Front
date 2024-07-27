@@ -1,0 +1,17 @@
+<div class="cards-container">
+    <div class="card" *ngFor="let car of cars">
+        <div class="image-container">
+            <img class="profile" [src]="car.processedImg" alt="profile"/>
+        </div>
+        <div class="details-container">
+            <h2>{{car.brand}} - {{car.name}}</h2>
+            <p>{{car.description}}</p>
+            <hr>
+            <h5>Price: ${{car.price}}</h5>
+            <h5>Color: {{car.color}}</h5>
+            <h5>Transmission: {{car.transmission}}</h5>
+            <h5>Type: {{car.type}}</h5>
+            <h5>Year: {{car.year}}</h5>
+        </div>
+    </div>
+</div>

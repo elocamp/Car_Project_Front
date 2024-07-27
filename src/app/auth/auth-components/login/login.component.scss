@@ -1,0 +1,85 @@
+[nz-form] {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.phone-select {
+    width: 70px;
+}
+
+.register-are {
+    margin-bottom: 8px;
+}
+
+.child {
+    padding: 40px;
+    position: fixed;
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    margin-bottom: 22px;
+}
+
+nz-form-control {
+    width: 100%;
+}
+
+nz-form-control input[nz-input] {
+    border-radius: 8px;
+    border: 1px solid #d9d9d9;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+nz-form-control input[nz-input]:focus {
+    border-color: #40a9ff;
+    box-shadow: 0 0 0 2px rgba(64, 169, 255, 0.2);
+    outline: none;
+}
+
+.login-form-margin {
+    margin-bottom: 16px;
+}
+
+.login-form-forgot {
+    text-align: right;
+    font-size: 14px;
+}
+
+.login-form-button {
+    width: 100%;
+}
+
+button {
+    background-color: #333;
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+button:active {
+    background-color: #222;
+}
+
+.imgDiv {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
